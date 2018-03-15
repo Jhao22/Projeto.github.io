@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+
+
+  
+</style>
+<body>
+
+
+<!-- Sidebar (hidden by default) -->
+
+
+
+
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="barra">
+  <a href="javascript:void(0)"onclick="w3_close()"
+  class="w3-bar-item w3-button">Fechar menu</a>
+  <a href="#pref" onclick="w3_close()" class="w3-bar-item w3-button">Login</a>
+  <a href="#pref" onclick="w3_close()" class="w3-bar-item w3-button">Preferências</a>
+  <a href="#hist" onclick="w3_close()" class="w3-bar-item w3-button">Historico de Pedidos</a>
+</nav>
+
+
+
+
+
+
+
+<!-- Top menu -->
+
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-blue">
+    <div class="w3-col s3">
+   
+      <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    </div>
+    <div class="w3-col s3">
+      <center><input type="text" class="w3-padding" id="txtBusca" placeholder="Buscar"/></center>
+    </div>
+    <div>
+      <a href="#avançado" class="w3-button w3-padding-16 w3-right w3-blue">Avançado</a>
+    </div>
+  </div>
+</div>
+
+
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- primeiro Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="r1.jpg" alt="r1" style="width:100%">
+      <h2>Distância :<br></h2><h3> 5 km</h3>
+       <h2>Classificação :<br></h2><h3> 7.8</h3>
+      
+    </div>
+    <div class="w3-quarter"><br>
+      <img src="r4.jpg" alt="r2" style="width:100%"><br>
+
+     <br> <h2>Distância :<br></h2><h3> 6 km</h3>
+       <h2>Classificação :<br></h2><h3> 8.8</h3>
+    </div>
+    <div class="w3-quarter"><br>
+    <br>
+    <br>
+
+      <img src="r7.jpg" alt="Cherries" style="width:100%">
+      <br>
+
+     <br> <h2>Distância :<br></h2><h3> 9 km</h3>
+       <h2>Classificação :<br></h2><h3> 5.9</h3>
+    </div>
+
+    <div class="w3-quarter">
+    <br>
+    <br>
+      <img src="r6.jpg" alt="Pasta and Wine" style="width:100%">
+  <br>
+
+     <br> <h2>Distância :<br></h2><h3> 5 km</h3>
+       <h2>Classificação :<br></h2><h3> 8.1</h3>
+    </div>
+  </div>
+  
+  <!-- segundo Photo Grid-->
+
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="r2.jpg" alt="Popsicle" style="width:100%">
+       <h2>Distância :<br></h2><h3> 2 km</h3>
+       <h2>Classificação :<br></h2><h3> 5.2</h3>
+    </div>
+    <div class="w3-quarter">
+      <img src="r8.jpg" alt="Salmon" style="width:100%">
+     <br>
+
+     <br> <h2>Distância :<br></h2><h3> 8 km</h3>
+       <h2>Classificação :<br></h2><h3> 8.4</h3>
+    </div>
+
+    <div class="w3-quarter">
+      <img src="r11.jpg" alt="Sandwich" style="width:100%">
+     <h2>Distância :<br></h2><h3> 1 km</h3>
+       <h2>Classificação :<br></h2><h3> 4.8</h3>
+    </div>
+    <div class="w3-quarter">
+      <img src="r12.jpg" alt="Croissant" style="width:174px">
+      <h2>Distância :<br></h2><h3> 12 km</h3>
+       <h2>Classificação :<br></h2><h3> 5.0</h3>
+    </div>
+  </div>
+
+<!-- terceiro Photo Grid-->
+<div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="r3.jpg" alt="r3" style="width:100%">
+      <h2>Distância :<br></h2><h3> 7 km</h3>
+       <h2>Classificação :<br></h2><h3> 7.2</h3>
+    </div>
+    <div class="w3-quarter">
+      <img src="r13.jpg" alt="Salmon" style="width:115%">
+      <br>
+      <br>
+<br>
+
+       <h2>Distância :<br></h2><h3> 15 km</h3>
+       <h2>Classificação :<br></h2><h3> 9.5</h3>
+    </div>
+    <div class="w3-quarter">
+      <img src="r14.jpg" alt="Sandwich" style="width:110%">
+       <h2>Distância :<br></h2><h3> 11 km</h3>
+       <h2>Classificação :<br></h2><h3> 4.0</h3>
+    </div>
+    <div class="w3-quarter">
+      <img src="r15.jpg" alt="Croissant" style="width:100%">
+      <br>
+      <br>
+     <h2>Distância :<br></h2><h3> 1 km</h3>
+       <h2>Classificação :<br></h2><h3> 8.5</h3>
+    </div>
+  </div>
+
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+<div class="w3-down">
+  <div class="w3-row w3-padding w3-green">
+    <div class="w3-col s3">
+   
+      <div><img src="r13.jpg" alt="Salmon" style="width:28%"></div>
+    </div>
+    <div class="w3-col s3">
+      <h6>Tempo Estimado : 35 minutos</h6>
+    </div>
+    <div>
+      <a href="#avançado" class="w3-button w3-padding-16 w3-right w3-green">Informação</a>
+    </div>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("barra").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("barra").style.display = "none";
+}
+</script>
+
+</body>
+</html>
